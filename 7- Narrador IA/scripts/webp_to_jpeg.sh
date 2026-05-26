@@ -1,1 +1,0 @@
-find . -type f -iname '*.webp' -exec sh -c 'for f do magick "$f" "${f%.*}.jpg"; done' sh {} +
